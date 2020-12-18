@@ -1,0 +1,19 @@
+//Временная почта - https://temp-mail.org/ru/
+//Сайт docker play - https://labs.play-with-docker.com/
+
+docker run -it ubuntu              // запускаем ubuntu
+apt update                         // обновляем пакетный менеджер
+apt-get install htop               // устанавливаем монитор процессов
+htop                               // просматриваем ресурсы
+apt-get install openjdk-11-jdk     // устанавливаем java
+java -version                      // проверяем установку java
+apt-get install mc                 // устанавливаем файловый менеджер
+cd /home                           // переходим в домашний каталог
+touch Main.java                    // создаем файл Main.java
+mc                                 // переходим в файловый менеджер, Main.java открываем файл кнопкой F4
+
+// копируем содержимое файла по ссылке https://github.com/vadik7777/threads/blob/master/src/Main.java
+// заменяем адрес атакуемого сайта URL_DDOS и сохраняем нажав на кнопку F2
+// нажимеам Ctlr+O переходим в терминал
+
+java Main.java                      // в jdk11 можно запускать файлы без компиляции
